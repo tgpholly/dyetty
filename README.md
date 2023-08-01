@@ -2,7 +2,7 @@
 A drop-in, function compatible alternative to chalk that supports CommonJS
 
 ## Motivations
-When version 5 of chalk was released support for CommonJS was dropped. I don't yet (if ever) want to migrate to ESM so I made this.
+When version 5 of chalk was released support for CommonJS was dropped. I don't yet (if ever) want to migrate to ESM and was frustrated that I had to use `chalk@4` so I made this as a result of that frustration.
 
 ## Things to note
 When using TypeScript you may need to change the way you import the module if you import chalk like this:
